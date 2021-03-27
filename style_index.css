@@ -6,10 +6,6 @@
     color: white;
 }
 
-a {
-    color: white;
-}
-
 body{
     margin: 0px;
     padding: 0px;
@@ -132,14 +128,14 @@ h1{
 
 #jasmin:hover #title-jasmin a {
 
-    color: #6930C3;
+    color: #FFA200;
     transition: 0.5s;
 
 }
 
 #jasmin:hover #square-jasmin {
 
-    border: 1px solid #6930C3;
+    border: 1px solid #FFA200;
     transition: 0.5s;
 
 }
