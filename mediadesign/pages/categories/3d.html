@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Categories - #3D</title>
+    <link rel="stylesheet" type="text/css" href="/joshua/css/style_categories.css">
+
+    <!--Playfair Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!--Roboto Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Menubar-->
+    <!-- #####################################################-->
+    <header>
+        <nav class="menuebar">
+
+            <div id="elements">
+
+                <a class="disabledTab">About</a>
+                <a class="disabledTab">Projects</a>
+                <a href="#hashDescription" class="nav-item is-active scroll" id="itemHashtags" active-color="#56CFE1">Categories</a>
+                <a href="#footer" class="nav-item scroll" id="itemFooter" active-color="#56CFE1">Contact</a>
+
+                <span class="nav-indicator"></span>
+
+            </div>
+
+        </nav>
+
+        <a id="logo" href="/joshua/pages/joshua.html">Joshua</a>
+
+    </header>
+
+    <!-- Hashtag Beschreibung-->
+    <!-- #####################################################-->
+    <main id="grid">
+
+        <!-- Grid mit 4 Spalten und 6 Zeilen-->
+        <section id="hashDescription">
+            <h1>#3d</h1>
+            <p id="amountProjects">0 Project(s)
+            </p>
+        </section>
+
+        <!-- Asides-->
+        <!-- #####################################################-->
+
+        <aside id="left">
+            <a id="aboutText" href="/joshua/pages/joshua.html">About</a>
+            <a href="/joshua/pages/joshua.html">
+                <div id="arrowLeft"></div>
+            </a>
+        </aside>
+
+
+        <!-- Categories/Hashtags -->
+        <!-- #####################################################-->
+
+        <section id="hashtags">
+
+            <div></div>
+
+            <article id="hash">
+
+                <a href="/joshua/pages/categories/motion.html">#Motion Design</a>
+                <a href="/joshua/pages/categories/ux.html">#Ux Design</a>
+                <a href="/joshua/pages/categories/photography.html">#Photography</a>
+                <a href="/joshua/pages/categories/film.html">#Film</a>
+                <a href="/joshua/pages/categories/audio.html">#Audio</a>
+                <a href="/joshua/pages/categories/3d.html">#3D</a>
+                <a href="/joshua/pages/categories/web.html">#Web Design</a>
+                <a href="/joshua/pages/categories/design.html">#Design Basics</a>
+
+            </article>
+
+        </section>
+
+        <!-- Footer -->
+        <!-- #####################################################-->
+
+        <section id="footerSection">
+
+            <footer id="footer">
+
+                <p id="hi">Want To Say Hi ? <br>
+                    Then Contact Us ...
+                </p>
+
+                <p id="KontaktJasmin">
+                    <a href="/jasmin/pages/jasmin.html" style="color: #6930c3">Jasmin Feyerabend </a><br>
+                    <br>
+                    +49 07520 1200<br>
+                    Jasmin.Feyerabend@gmx.de<br>
+                    <br>
+                    Address:<br>
+                    Ahornstraße 25<br>
+                    88285 Bodnegg<br>
+                    Germany<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJasmin">
+                    <a href="#">In</a>
+                    <a href="#">Yt</a>
+                    <a href="#">Tw</a>
+                </div>
+
+                <!-- #####################################################-->
+
+                <p id="KontaktJoshi">
+                    <a href="joshua.html" style="color:#56CFE1">Joshua Hemsuthipan</a><br>
+                    <br>
+                    +49 176 84773289<br>
+                    j.hemsuthipan@gmail.com<br>
+                    <br>
+                    Address:<br>
+                    Im Fischergarten 9<br>
+                    88250 Weingarten<br>
+                    Germany<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJoshua">
+                    <a href="https://www.instagram.com/_joshi1_/">In</a>
+                    <a href="https://www.youtube.com/channel/UCB-ggoQGI1pssush7VygFrA">Yt</a>
+                    <a href="#">Tw</a>
+                </div>
+
+
+                <!-- Privacy Policy -->
+                <!-- #####################################################-->
+
+                <section id="privacyPolicy">
+                    <a href="#">Privacy Policy </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    <a href="#">Terms & Conditions </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    © 2020 - 2021
+                </section>
+
+                </div>
+            </footer>
+
+        </section>
+
+        <!-- Back To The Top Arrow -->
+
+        <a href="#hashDescription" id="upArrow" class="upArrow invisible"></a>
+
+    </main>
+
+    <!-- Einbindung von JS nav-->
+    <script src="/js/nav.js"></script>
+
+    <!-- Einbindung von JS snapscroll-->
+    <script src="/js/scroll.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JQUERY zur funktionaliät des folgenden Codes -->
+    <!-- Für den UP ARROW -->
+    <script>
+
+        function goto($hashtag) {
+            document.location = "#" + $hashtag;
+        }
+
+
+        $(document).ready(function () {
+            const el = document.getElementById('hashDescription');
+            const pos = el.getBoundingClientRect();
+            const grid = document.querySelector('#grid');
+            grid.scrollTo(0, pos.top);
+            //$(window).scrollTop(0);
+        });
+
+        $(window).bind('wheel', function (e) {
+
+            if (event.deltaY > 0) {
+                $('.upArrow').fadeIn();
+                $('.hideArrow').fadeOut();
+            }
+        });
+
+    </script>
+</body>
+
+</html>
