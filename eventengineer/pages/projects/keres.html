@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project - Keres</title>
+    <link rel="stylesheet" type="text/css" href="/jasmin/css/style_keres.css">
+
+    <!--Playfair Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!--Roboto Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Alex brush Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+    <!-- Modal - DB von W3Schools -->
+    <link rel="stylesheet" href="/w3.css">
+
+</head>
+
+<body>
+    <!-- Menubar-->
+    <!-- #####################################################-->
+
+    <header>
+        <nav class="menuebar">
+            <a class="disabledTab">About</a>
+            <a href="#" class="nav-item is-active scroll" id="itemProjects" active-color="#6930C3">Projects</a>
+            <a href="#hashtags" class="nav-item scroll" id="itemHashtags" active-color="#6930C3">Categories</a>
+            <a href="#footer" class="nav-item scroll" id="itemFooter" active-color="#6930C3">Contact</a>
+
+            <span class="nav-indicator"></span>
+
+        </nav>
+
+        <a id="logo" href="/jasmin/pages/jasmin.html">Jasmin</a>
+
+    </header>
+
+    <!-- Description - Projectbescheribung mit Semester und Text -->
+    <!-- #####################################################-->
+
+    <main id="grid">
+        <!-- Grid mit 4 Spalten und 7 Zeilen-->
+        <section id="description">
+
+            <h2 id="specialHashtags">
+                <a href="/jasmin/pages/categories/3d.html">#3D Animation</a>
+                <a class="verticalLine">|</a>
+                <a id="semester" href="#">WS2020/21</a>
+            </h2>
+            <h1>KERES | Demon Huntress</h1>
+            <p id="text">Es herrscht ein verheerender Krieg zwischen den Dämonen und den Menschen. Die Dämonen kamen aus
+                der Unterwelt,
+                überfluten die Menschenwelt und morden, um sich die Seelen der Menschen zu holen.
+                Keres ist eine junge und begabte Kriegerin. Sie ist an den Krieg gewöhnt, denn er wurde schon seit ihrer
+                Geburt zwischen beiden Welten ausgetragen...
+
+            </p>
+
+        </section>
+
+        <!-- Asides - Right -->
+        <!-- #####################################################-->
+
+        <aside id="left">
+            <a id="aboutText" href="/jasmin/pages/jasmin.html">About</a>
+            <a href="/jasmin/pages/jasmin.html">
+                <div id="arrowLeft"></div>
+            </a>
+        </aside>
+
+
+        <!-- First Row - Mochaccino Video-->
+        <!-- #####################################################-->
+
+        <section class="wideContent">
+            <iframe id="keresTurntable"
+                src="https://www.youtube.com/embed/LGWttKFU3yA?&mute=1&autoplay=1&playlist=LGWttKFU3yA&loop=1&showinfo=0&controls=0"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+
+        <!-- Second Row - Detail Bilder -->
+        <!-- #####################################################-->
+
+
+        <section id="innerGrid1">
+
+            <img id="pictureLeft" src="/jasmin/img/keres/Kopf.jpg" alt="Keres - Kopf"
+                onclick="document.getElementById('head').style.display='block'">
+
+            <div id="head" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/jasmin/img/keres/Kopf.jpg" style="width: 100%;">
+                </div>
+            </div>
+
+            <div class="quotationMark" id="quotationMark1">"</div>
+            <p id="paragraphOne">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Der Dämon versprach Ihr dunkle Kräfte, mit denen sie die
+                Menschen vor den Kreaturen beschützen könne,
+                doch im Gegenzug dafür wollte er ihre Seele.
+
+            <div class="quotationMark" id="quotationMark2">"</div>
+
+            <img id="pictureRight" src="/jasmin/img/keres/hand.jpg" alt="Keres - Hand"
+                onclick="document.getElementById('hand').style.display='block'">
+
+            <div id="hand" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/jasmin/img/keres/hand.jpg" style="width: 100%;">
+                </div>
+            </div>
+
+            <div class="quotationMark" id="quotationMark3">"</div>
+            <p id="paragraphTwo">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Blind vor Wut ging Keres den Pakt ein. Sie berührte das
+                Schwert und ein brennender Schmerz überkam sie.
+                Es schien so, als ob eine dunkle Macht ihren Arm hinauf kroch. Ihr Arm färbte sich schwarz und die Macht
+                des Dämonen begann ihr das Fleisch von den Knochen zu zehren.
+
+            </p>
+            <div class="quotationMark" id="quotationMark4">"</div>
+
+
+        </section>
+
+
+        <!-- Animatic Video-->
+
+        <section class="wideContent">
+            <img id="charaSheet" src="/jasmin/img/keres/Keres_CharacterSheet.jpg" alt="Character Sheet">
+        </section>
+
+        <section class="wideContent">
+            <img id="weaponSheet" src="/jasmin/img/keres/Kleidung_VersVersionen.jpg" alt="Weapon Sheet">
+        </section>
+
+        <!-- Storyboard etc.-->
+        <!-- #####################################################-->
+
+        <section id="innerGrid2">
+            <p id="paragraphTop">
+                The journey of making Keres started by sketching different character variations. <br>
+                I was working around one month on my sketches before I was satisfied with the desgin. Then I started to
+                draw my final character sheet. <br>
+                <br>
+                After finishing the character sheet I started to model in Blender. Keres was the first model I made in a
+                3D program and therefore I struggled quite a bit with getting warm in blender.
+                But after some time it started to become more fun and I learned a lot about verticies, edges, and
+                faces...
+
+
+            </p>
+
+            <img id="pictureTop" src="/jasmin/img/keres/Beine.jpg" class="modalContent"
+                onclick="document.getElementById('legs').style.display='block'">
+
+            <div id="legs" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/jasmin/img/keres/Beine.jpg" style="width: 100%;">
+                </div>
+            </div>
+
+
+            <p id="paragraphBottom">
+                Making the basemesh took me about one month. In this time I asked for a lot of feedback in terms of body
+                proportions, facial features and details.
+                I made several folders with pictures of different body parts to be able to model my chacter as realistic
+                as possible.
+                In the last few steps of making my character I started to use Marvelous Designer to creat the fabric
+                pieces on arm and hips.
+
+            </p>
+            <img id="pictureBottom" src="/jasmin/img/keres/Handschuh.jpg" class="modalContent"
+                onclick="document.getElementById('glove').style.display='block'">
+
+            <div id="glove" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/jasmin/img/keres/Handschuh.jpg" style="width: 100%;">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="wideContent">
+            <img id="splashArt" src="/jasmin/img/keres/Keres_SplashArt.jpg" alt="Keres">
+        </section>
+
+        <!-- Categories/Hashtags -->
+        <!-- #####################################################-->
+
+        <section id="hashtags">
+
+            <div></div>
+
+            <article id="hash">
+
+                <a href="/jasmin/pages/categories/motion.html">#Motion Design</a>
+                <a href="/jasmin/pages/categories/ux.html">#Ux Design</a>
+                <a href="/jasmin/pages/categories/photography.html">#Photography</a>
+                <a href="/jasmin/pages/categories/film.html">#Film</a>
+                <a href="/jasmin/pages/categories/audio.html">#Audio</a>
+                <a href="/jasmin/pages/categories/3d.html">#3D</a>
+                <a href="/jasmin/pages/categories/web.html">#Web Design</a>
+                <a href="/jasmin/pages/categories/design.html">#Design Basics</a>
+
+            </article>
+
+        </section>
+
+        <!-- Footer -->
+        <!-- #####################################################-->
+
+        <section id="footerSection">
+            <footer id="footer">
+
+                <p id="hi">Want To Say Hi ? <br>
+                    Then Contact Us ...
+                </p>
+
+                <p id="KontaktJasmin">
+                    <a href="jasmin.html" style="color: #6930c3">Jasmin Feyerabend </a><br>
+                    <br>
+                    +49 07520 1200<br>
+                    Jasmin.Feyerabend@gmx.de<br>
+                    <br>
+                    Address:<br>
+                    Ahornstraße 25<br>
+                    88285 Bodnegg<br>
+                    Germany<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJasmin">
+                    <a href="#">In</a>
+                    <a href="#">Yt</a>
+                    <a href="#">Tw</a>
+                </div>
+
+                <!-- #####################################################-->
+
+                <p id="KontaktJoshi">
+                    <a href="/joshua/pages/joshua.html" style="color:#56CFE1">Joshua Hemsuthipan</a><br>
+                    <br>
+                    +49 176 84773289<br>
+                    j.hemsuthipan@gmail.com<br>
+                    <br>
+                    Address:<br>
+                    Im Fischergarten 9<br>
+                    88250 Weingarten<br>
+                    Germany<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJoshua">
+                    <a href="https://www.instagram.com/_joshi1_/">In</a>
+                    <a href="https://www.youtube.com/channel/UCB-ggoQGI1pssush7VygFrA">Yt</a>
+                    <a href="#">Tw</a>
+                </div>
+
+
+                <!-- Privacy Policy -->
+
+                <section id="privacyPolicy">
+                    <a href="#">Privacy Policy </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    <a href="#">Terms & Conditions </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    © 2020 - 2021
+                </section>
+
+                </div>
+            </footer>
+
+        </section>
+
+        <!-- Back To The Top Arrow -->
+
+        <a href="#" id="upArrow" class="upArrow invisible"></a>
+
+    </main>
+
+
+    <!-- Einbindung von JS nav-->
+    <script src="/js/nav.js"></script>
+
+    <!-- Einbindung von JS snapscroll-->
+    <script src="/js/scroll.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JQUERY zur funktionaliät des folgenden Codes -->
+    <!-- Für den UP ARROW -->
+    <script>
+
+        $(document).ready(function () {
+            $(window).scrollTop(0);
+        });
+
+        $(window).bind('wheel', function (e) {
+
+            if (event.deltaY > 0) {
+                $('.upArrow').fadeIn();
+                $('.hideArrow').fadeOut();
+
+
+
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>

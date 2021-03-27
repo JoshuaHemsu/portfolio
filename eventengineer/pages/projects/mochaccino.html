@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project - Mochaccino</title>
+    <link rel="stylesheet" type="text/css" href="/jasmin/css/style_mochaccino.css">
+
+    <!--Playfair Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!--Roboto Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Alex brush Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+    <!-- Modal - DB von W3Schools -->
+    <link rel="stylesheet" href="/w3.css">
+
+</head>
+
+<body>
+    <!-- Menubar-->
+    <!-- #####################################################-->
+
+    <header>
+        <nav class="menuebar">
+            <a class="disabledTab">About</a>
+            <a href="#" class="nav-item is-active scroll" id="itemProjects" active-color="#6930C3">Projects</a>
+            <a href="#hashtags" class="nav-item scroll" id="itemHashtags" active-color="#6930C3">Categories</a>
+            <a href="#footer" class="nav-item scroll" id="itemFooter" active-color="#6930C3">Contact</a>
+
+            <span class="nav-indicator"></span>
+
+        </nav>
+
+        <a id="logo" href="/jasmin/pages/jasmin.html">Jasmin</a>
+
+    </header>
+
+    <!-- Description - Projectbescheribung mit Semester und Text -->
+    <!-- #####################################################-->
+
+    <main id="grid">
+        <!-- Grid mit 4 Spalten und 7 Zeilen-->
+        <section id="description">
+
+            <h2 id="specialHashtags">
+                <a href="/jasmin/pages/categories/motion.html">#Motion Design</a>
+                <a class="verticalLine">|</a>
+                <a id="semester" href="#">SS2020</a>
+            </h2>
+            <h1>Mochaccino</h1>
+            <p id="text">To many of us, coffee is so essential to life that it’s unimaginable that it wasn’t enjoyed as
+                a
+                beverage at one point in history! Mochaccino is a Motion Design project that is explaining the history
+                of coffee in a brief and
+                fascinating way. From the Orient in the 15th century till today, you'll enjoy getting to know
+                the journey of Java.
+            </p>
+
+        </section>
+
+        <!-- Asides - Right / Left-->
+        <!-- #####################################################-->
+
+        <aside id="left">
+            <a id="aboutText" href="/jasmin/pages/jasmin.html">About</a>
+            <a href="/jasmin/pages/jasmin.html">
+                <div id="arrowLeft"></div>
+            </a>
+        </aside>
+
+        <aside id="right">
+            <a href="elias.html">Next One</a>
+            <a href="elias.html">
+                <div id="arrowRight"></div>
+            </a>
+        </aside>
+
+        <!-- First Row - Mochaccino Video-->
+        <!-- #####################################################-->
+
+        <section class="wideContent">
+            <iframe id="mochaccinoVideo" src="https://www.youtube.com/embed/LYgfp9npV10?&autoplay=1&mute=1&playlist=LYgfp9npV10&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <!-- Second Row - Detail Bilder -->
+        <!-- #####################################################-->
+
+
+        <section id="innerGrid1">
+
+            <img id="pictureLeft" src="/jasmin/img/mochaccino/cup.png" alt="Mochaccino"
+                onclick="document.getElementById('cup').style.display='block'">
+
+            <div id="cup" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/jasmin/img/mochaccino/cup.png" style="width: 100%;">
+                </div>
+            </div>
+
+            <div class="quotationMark" id="quotationMark1">"</div>
+            <p id="paragraphOne">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In the 9. century, coffee plants were growing in Ethiopia.
+                Legends say, that the invigorating effect of the coffee drupes was discovered by a goatherd.
+                The drupes then got roasted and drunk as coffee for the first time in Yemen.
+                The black drink soon became prevalent and places called “Coffee Houses” were founded.
+            </p>
+            <div class="quotationMark" id="quotationMark2">"</div>
+
+            <img id="pictureRight" src="/jasmin/img/mochaccino/pigeon.png" alt="Mochaccino"
+                onclick="document.getElementById('pigeon').style.display='block'">
+
+            <div id="pigeon" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/jasmin/img/mochaccino/pigeon.png" style="width: 100%;">
+                </div>
+            </div>
+
+            <div class="quotationMark" id="quotationMark3">"</div>
+            <p id="paragraphTwo">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Although the Ottoman Empire tried to keep the
+                coffee plant for themselves, it spread rapidly regardlessly.
+                The colonial powers brought it overseas and the miraculous seeds got planted wherever possible,
+                which was of course only beneficial for some individuals.
+            </p>
+            <div class="quotationMark" id="quotationMark4">"</div>
+
+
+        </section>
+
+
+        <!-- Animatic Video-->
+
+        <section class="wideContent">
+            <iframe id="animaticVideo" src="https://www.youtube.com/embed/nliO802XIn4?&mute=1&autoplay=1&playlist=nliO802XIn4&loop=1&showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <!-- Storyboard etc.-->
+        <!-- #####################################################-->
+
+        <section id="innerGrid2">
+            <p id="paragraphTop">
+                The goal of an animatic is to define the timing for a piece of moving image.
+                When used with a soundtrack, they're a quick and easy way to get a sense of a finished piece of
+                moving image.
+                Animatics are used to plan an animation, and use low-resolution images to convey timing, rather than
+                the look
+                and feel of the final piece. An animatic is the pre-cursor to the final animation, and is a key part
+                of the planning process.
+            </p>
+
+            <img id="storyboardTop" src="/jasmin/img/mochaccino/storyboard1.jpg" class="modalContent"
+                onclick="document.getElementById('storyboard1').style.display='block'">
+
+            <div id="storyboard1" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/jasmin/img/mochaccino/storyboard1.jpg" style="width: 100%;">
+                </div>
+            </div>
+
+
+            <p id="paragraphBottom">
+                For my project "Mochaccino" I studied about the history of coffee and made a lot of researches.
+                <br>
+                <br>
+                After I had enough knowledge, I started to write the voice-over text and sketched a detailed
+                storyboard.
+
+            </p>
+            <img id="storyboardBottom" src="/jasmin/img/mochaccino/storyboard2.jpg" class="modalContent"
+                onclick="document.getElementById('storyboard2').style.display='block'">
+
+            <div id="storyboard2" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/jasmin/img/mochaccino/storyboard2.jpg" style="width: 100%;">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Categories/Hashtags -->
+        <!-- #####################################################-->
+
+        <section id="hashtags">
+
+            <div></div>
+
+            <article id="hash">
+
+                <a href="/jasmin/pages/categories/motion.html">#Motion Design</a>
+                <a href="/jasmin/pages/categories/ux.html">#Ux Design</a>
+                <a href="/jasmin/pages/categories/photography.html">#Photography</a>
+                <a href="/jasmin/pages/categories/film.html">#Film</a>
+                <a href="/jasmin/pages/categories/audio.html">#Audio</a>
+                <a href="/jasmin/pages/categories/3d.html">#3D</a>
+                <a href="/jasmin/pages/categories/web.html">#Web Design</a>
+                <a href="/jasmin/pages/categories/design.html">#Design Basics</a>
+
+            </article>
+
+        </section>
+
+        <!-- Footer -->
+        <!-- #####################################################-->
+
+        <section id="footerSection">
+            <footer id="footer">
+
+                <p id="hi">Want To Say Hi ? <br>
+                    Then Contact Us ...
+                </p>
+
+                <p id="KontaktJasmin">
+                    <a href="jasmin.html" style="color: #6930c3">Jasmin Feyerabend </a><br>
+                    <br>
+                    +49 07520 1200<br>
+                    Jasmin.Feyerabend@gmx.de<br>
+                    <br>
+                    Address:<br>
+                    Ahornstraße 25<br>
+                    88285 Bodnegg<br>
+                    Germany<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJasmin">
+                    <a href="#">In</a>
+                    <a href="#">Yt</a>
+                    <a href="#">Tw</a>
+                </div>
+
+                <!-- #####################################################-->
+
+                <p id="KontaktJoshi">
+                    <a href="/joshua/pages/joshua.html" style="color:#56CFE1">Joshua Hemsuthipan</a><br>
+                    <br>
+                    +49 176 84773289<br>
+                    j.hemsuthipan@gmail.com<br>
+                    <br>
+                    Address:<br>
+                    Im Fischergarten 9<br>
+                    88250 Weingarten<br>
+                    Germany<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJoshua">
+                    <a href="https://www.instagram.com/_joshi1_/">In</a>
+                    <a href="https://www.youtube.com/channel/UCB-ggoQGI1pssush7VygFrA">Yt</a>
+                    <a href="#">Tw</a>
+                </div>
+
+
+                <!-- Privacy Policy -->
+
+                <section id="privacyPolicy">
+                    <a href="#">Privacy Policy </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    <a href="#">Terms & Conditions </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    © 2020 - 2021
+                </section>
+
+                </div>
+            </footer>
+
+        </section>
+
+
+        <!-- Back To The Top Arrow -->
+
+        <a href="#" id="upArrow" class="upArrow invisible"></a>
+
+    </main>
+
+
+    <!-- Einbindung von JS nav-->
+    <script src="/js/nav.js"></script>
+
+    <!-- Einbindung von JS snapscroll-->
+    <script src="/js/scroll.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JQUERY zur funktionaliät des folgenden Codes -->
+    <!-- Für den UP ARROW -->
+    <script>
+
+        $(document).ready(function () {
+            $(window).scrollTop(0);
+        });
+
+        $(window).bind('wheel', function (e) {
+
+            if (event.deltaY > 0) {
+                $('.upArrow').fadeIn();
+                $('.hideArrow').fadeOut();
+
+
+
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
