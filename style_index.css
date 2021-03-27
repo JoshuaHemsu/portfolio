@@ -49,9 +49,9 @@ h1{
 
 }
 
-/* JOSHUA - LEFT */
+/* MEDIA DESIGN - LEFT */
 
-#joshua {
+#mediaDesign {
 
     grid-row: 2;
     grid-column: 2; 
@@ -62,14 +62,14 @@ h1{
 
 }
 
-#joshua:hover #title-joshua a {
+#mediaDesign:hover #title-mediaDesign a {
 
     color: #56CFE1;
     transition: 0.5s;
 
 }
 
-#joshua:hover #square-joshua {
+#mediaDesign:hover #square-mediaDesign {
 
     border: 1px solid #56CFE1;
     transition: 0.5s;
@@ -77,7 +77,7 @@ h1{
 }
 
 
-#title-joshua {
+#title-mediaDesign {
     
     font-family: 'Playfair Display', serif;
     grid-row: 2;
@@ -88,7 +88,7 @@ h1{
 
 }
 
-#title-joshua a {
+#title-mediaDesign a {
     font-family: 'Playfair Display', serif;
 }
 
@@ -101,7 +101,7 @@ h1{
 
 }
 
-#square-joshua {
+#square-mediaDesign {
 
     margin-left: 40px;
     background: #141414;
@@ -115,7 +115,7 @@ h1{
 
 /* JASMIN - RIGHT */
 
-#jasmin {
+#eventEngineer {
 
     grid-row: 2;
     grid-column: 3; 
@@ -126,21 +126,21 @@ h1{
 
 }
 
-#jasmin:hover #title-jasmin a {
+#eventEngineer:hover #title-eventEngineer a {
 
     color: #FFA200;
     transition: 0.5s;
 
 }
 
-#jasmin:hover #square-jasmin {
+#eventEngineer:hover #square-eventEngineer {
 
     border: 1px solid #FFA200;
     transition: 0.5s;
 
 }
 
-#title-jasmin {
+#title-eventEngineer {
 
     font-family: 'Playfair Display', serif;
     grid-row: 2;
@@ -152,7 +152,7 @@ h1{
 
 }
 
-#title-jasmin a {
+#title-eventEngineer a {
     font-family: 'Playfair Display', serif;
 }
 
@@ -164,7 +164,7 @@ h1{
     justify-self: end;
 }
 
-#square-jasmin {
+#square-eventEngineer {
 
     margin-right: 40px;
     background: #141414;
