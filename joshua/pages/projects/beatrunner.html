@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project - Beat Runner</title>
+    <link rel="stylesheet" type="text/css" href="/joshua/css/style_beatrunner.css">
+
+    <!--Playfair Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!--Roboto Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Alex brush Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+    <!-- Modal - DB von W3Schools -->
+    <link rel="stylesheet" href="/w3.css">
+
+</head>
+
+<body>
+    <!-- Menubar-->
+    <!-- #####################################################-->
+
+    <header>
+        <nav class="menuebar">
+
+            <div id="elements">
+
+                <a class="disabledTab">About</a>
+                <a href="#" class="nav-item is-active scroll" id="itemProjects" active-color="#56cfe1">Projects</a>
+                <a href="#hashtags" class="nav-item scroll" id="itemHashtags" active-color="#56cfe1">Categories</a>
+                <a href="#footer" class="nav-item scroll" id="itemFooter" active-color="#56cfe1">Contact</a>
+
+                <span class="nav-indicator"></span>
+
+            </div>
+
+        </nav>
+
+        <a id="logo" href="/joshua/pages/joshua.html">Joshua</a>
+
+    </header>
+
+    <!-- Description - Projektbeschreibung mit Semester und Text -->
+    <!-- #####################################################-->
+
+    <main id="grid">
+        <!-- Grid mit 4 Spalten und 7 Zeilen-->
+        <section id="description">
+
+            <h2 id="specialHashtags">
+                <a href="/joshua/pages/categories/motion.html">#Motion Design</a>
+                <a class="verticalLine">|</a>
+                <a id="semester" href="#">SS2020</a>
+            </h2>
+            <h1>Beat Runner</h1>
+            <p id="text"> Angelehnt an das Musikvideo der White Stripes „Hardest Button To Button” von Michel Gondry
+                findet ein Mann in einer Straße der Stadt ein verlassenes Schlagzeug. Neugierig geworden setzt er
+                sich an das Set und spielt, wobei er beim ersten Schlag der Kick merkt das er sich einen Meter nach
+                vorne teleportiert hat. Im Rythmus des Beats bewegt er sich nun durch verschiedene Teile der
+                Stadt und findet auch andere Musiker.
+            </p>
+
+        </section>
+
+        <!-- Asides - Right / Left-->
+        <!-- #####################################################-->
+
+        <aside id="left">
+            <a id="aboutText" href="/joshua/pages/joshua.html">About</a>
+            <a href="/joshua/pages/joshua.html">
+                <div id="arrowLeft"></div>
+            </a>
+        </aside>
+
+        <aside id="right">
+            <a href="countdown.html">Next One</a>
+            <a href="countdown.html">
+                <div id="arrowRight"></div>
+            </a>
+        </aside>
+
+        <!-- First Row - Youtubevideo Beatrunner -->
+        <!-- #####################################################-->
+
+        <section class="wideContent">
+
+            <iframe id="beatrunnerVideo" src="https://www.youtube.com/embed/hfuAiXyDsvk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture" allowfullscreen></iframe>
+
+
+        </section>
+
+        <!-- Second Row - Detail Bilder -->
+        <!-- #####################################################-->
+
+
+        <section id="innerGrid1">
+
+            <img id="pictureLeft" src="/joshua/img/beatrunner/storyboard.png" alt="Beatrunner - Storyboard"
+                onclick="document.getElementById('storyboard').style.display='block'">
+
+            <div id="storyboard" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/joshua/img/beatrunner/storyboard.png" width="100%">
+                </div>
+            </div>
+
+
+            <p id="paragraphOne">
+                Um ein organisiertes und strukuriertes Arbeiten zu ermöglichen wurde
+                im Vorfeld ein Storyboard mit ersten Skizzen gezeichnet.
+
+            </p>
+
+
+            <img id="pictureRight" src="/joshua/img/beatrunner/aftereffects.png" alt="Beatrunner - After Effects"
+                onclick="document.getElementById('aftereffects').style.display='block'">
+
+            <div id="aftereffects" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/joshua/img/beatrunner/aftereffects.png" style="width: 100%;">
+                </div>
+            </div>
+
+            <p id="paragraphTwo">
+                Die Enviroments und Character wurden mit Adobe Illustrator erstellt und die Animationen
+                wurden mit Adobe After Effects umgesetzt. Wichtig hierbei war das Timing mit den einzelnen Sounds
+                und der Musik. Eine verschieung bereits um zwei Frames ist im Film sofort spürbar, weshalb hier sehr
+                genau gearbeitet werden musste.
+
+
+            </p>
+
+
+
+        </section>
+
+
+        <!-- Animatic Video-->
+
+        <section class="wideContent">
+            <iframe id="beatrunnerVideo" src="https://www.youtube.com/embed/4rUeTFkO64Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <!-- Storyboard etc.-->
+        <!-- #####################################################-->
+
+        <section id="innerGrid2">
+            <p id="paragraphTop">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum.
+                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet,
+                etetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+
+            <img id="imgTop" src="/joshua/img/beatrunner/illustrator.png" class="modalContent"
+                onclick="document.getElementById('illustrator').style.display='block'">
+
+            <div id="illustrator" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/joshua/img/beatrunner/illustrator.png" style="width: 100%;">
+                </div>
+            </div>
+
+
+            <p id="paragraphBottom">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum.
+                Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet,
+                etetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+            </p>
+            <img id="imgBottom"
+                src="https://heise.cloudimg.io/width/763/q50.png-lossy-50.webp-lossy-50.foil1/_www-heise-de_/imgs/18/2/3/1/8/0/4/5/Cubase_9_5_Meter_rechts-6e367833f4c615ae.jpeg"
+                class="modalContent" onclick="document.getElementById('storyboard2').style.display='block'">
+
+            <div id="storyboard2" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="https://heise.cloudimg.io/width/763/q50.png-lossy-50.webp-lossy-50.foil1/_www-heise-de_/imgs/18/2/3/1/8/0/4/5/Cubase_9_5_Meter_rechts-6e367833f4c615ae.jpeg"
+                        style="width: 100%;">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Categories/Hashtags -->
+        <!-- #####################################################-->
+
+        <section id="hashtags">
+
+            <div></div>
+
+            <article id="hash">
+
+                <a href="/joshua/pages/categories/motion.html">#Motion Design</a>
+                <a href="/joshua/pages/categories/ux.html">#Ux Design</a>
+                <a href="/joshua/pages/categories/photography.html">#Photography</a>
+                <a href="/joshua/pages/categories/film.html">#Film</a>
+                <a href="/joshua/pages/categories/audio.html">#Audio</a>
+                <a href="/joshua/pages/categories/3d.html">#3D</a>
+                <a href="/joshua/pages/categories/web.html">#Web Design</a>
+                <a href="/joshua/pages/categories/design.html">#Design Basics</a>
+
+            </article>
+
+        </section>
+
+        <!-- Footer -->
+        <!-- #####################################################-->
+
+        <section id="footerSection">
+            <footer id="footer">
+
+                <p id="hi">Want To Say Hi ? <br>
+                    Then Contact Us ...
+                </p>
+
+                <p id="KontaktJasmin">
+                    <a href="/jasmin/pages/jasmin.html" style="color: #6930c3">Jasmin Feyerabend </a><br>
+                    <br>
+                    +49 07520 1200<br>
+                    Jasmin.Feyerabend@gmx.de<br>
+                    <br>
+                    Address:<br>
+                    Ahornstraße 25<br>
+                    88285 Bodnegg<br>
+                    Germany<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJasmin">
+                    <a href="#">In</a>
+                    <a href="#">Yt</a>
+                    <a href="#">Tw</a>
+                </div>
+
+                <!-- #####################################################-->
+
+                <p id="KontaktJoshi">
+                    <a href="/joshua/pages/joshua.html" style="color:#56CFE1">Joshua Hemsuthipan</a><br>
+                    <br>
+                    +49 176 84773289<br>
+                    j.hemsuthipan@gmail.com<br>
+                    <br>
+                    Address:<br>
+                    Im Fischergarten 9<br>
+                    88250 Weingarten<br>
+                    Germany<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJoshua">
+                    <a href="https://www.instagram.com/_joshi1_/">In</a>
+                    <a href="https://www.youtube.com/channel/UCB-ggoQGI1pssush7VygFrA">Yt</a>
+                    <a href="#">Tw</a>
+                </div>
+
+
+                <!-- Privacy Policy -->
+
+                <section id="privacyPolicy">
+                    <a href="#">Privacy Policy </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    <a href="#">Terms & Conditions </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    © 2020 - 2021
+                </section>
+
+                </div>
+            </footer>
+
+        </section>
+
+        <!-- Back To The Top Arrow -->
+
+        <a href="#" id="upArrow" class="upArrow invisible"></a>
+
+    </main>
+
+
+    <!-- Einbindung von JS nav-->
+    <script src="/js/nav.js"></script>
+
+    <!-- Einbindung von JS snapscroll-->
+    <script src="/js/scroll.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JQUERY zur funktionaliät des folgenden Codes -->
+    <!-- Für den UP ARROW -->
+    <script>
+
+        $(document).ready(function () {
+            $(window).scrollTop(0);
+        });
+
+        $(window).bind('wheel', function (e) {
+
+            if (event.deltaY > 0) {
+                $('.upArrow').fadeIn();
+                $('.hideArrow').fadeOut();
+
+
+
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
