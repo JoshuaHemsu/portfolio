@@ -35,7 +35,7 @@ body {
 }
 
 #footerSection {
-    grid-row: 6;
+    grid-row: 8;
     grid-column-start: 1;
     grid-column-end: 5;
 }
@@ -392,6 +392,23 @@ p {
     grid-row: 4;
 }
 
+/* PROJECT  */
+
+/* ######################################################## */
+
+#project4 {
+    grid-row: 5;
+}
+
+/* PROJECT  */
+
+/* ######################################################## */
+
+#project5 {
+    grid-row: 6;
+}
+
+
 /* CATEGORIES LIST */
 
 /* ######################################################## */
@@ -403,7 +420,7 @@ p {
     align-content: center;
     justify-content: center;
     text-transform: uppercase;
-    grid-row: 5;
+    grid-row: 7;
     grid-column: 1/5;
 }
 
@@ -452,12 +469,14 @@ p {
 #KontaktJoshi {
     width: 300px;
     grid-row: 2;
-    grid-column: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 #tagsJoshua {
     grid-row: 3;
-    grid-column: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 /* JASMIN - RIGHT */
