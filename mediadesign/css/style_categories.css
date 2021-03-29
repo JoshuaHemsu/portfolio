@@ -217,7 +217,7 @@ p {
 }
 
 #left:hover #arrowLeft {
-    background-image: url(/icons/arrow_joshua.png);
+    background-image: url(/icons/arrow_blue.png);
 }
 
 /* ASIDE RIGHT */
@@ -252,7 +252,7 @@ p {
 }
 
 #right:hover #arrowRight {
-    background-image: url(/icons/arrowReverse_joshua.png);
+    background-image: url(/icons/arrowReverse_blue.png);
 }
 
 /* VORSTELLUNG JASMIN */

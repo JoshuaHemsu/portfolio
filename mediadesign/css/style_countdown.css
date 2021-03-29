@@ -184,7 +184,7 @@ img {
 }
 
 #left:hover #arrowLeft {
-    background-image: url(/icons/arrow_joshua.png);
+    background-image: url(/icons/arrow_blue.png);
 }
 
 /* ARROW FOR GOING UP AGAIN */
@@ -209,7 +209,7 @@ img {
 }
 
 #upArrow:hover {
-    background-image: url(/icons/arrowReverse_joshua.png);
+    background-image: url(/icons/arrowReverse_blue.png);
 }
 
 

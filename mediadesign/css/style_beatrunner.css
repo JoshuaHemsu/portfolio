@@ -184,7 +184,7 @@ img {
 }
 
 #left:hover #arrowLeft {
-    background-image: url(/icons/arrow_joshua.png);
+    background-image: url(/icons/arrow_blue.png);
 }
 
 /* BACK TO THE TOP ARROW */
@@ -209,7 +209,7 @@ img {
 }
 
 #upArrow:hover {
-    background-image: url(/icons/arrowReverse_joshua.png);
+    background-image: url(/icons/arrowReverse_blue.png);
 }
 
 /* ASIDE RIGHT */
@@ -243,7 +243,7 @@ img {
 }
 
 #right:hover #arrowRight {
-    background-image: url(/icons/arrow_joshua.png);
+    background-image: url(/icons/arrow_blue.png);
 }
 
 /* PROJECT DESCRIPTION */
