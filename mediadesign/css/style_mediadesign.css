@@ -184,7 +184,7 @@ p {
 }
 
 #upArrow:hover {
-    background-image: url(/portfolio/icons/arrowReverse_joshua.png);
+    background-image: url(/portfolio/icons/arrowReverse_blue.png);
 }
 
 /* ASIDE RIGHT */
@@ -220,7 +220,7 @@ p {
 }
 
 #right:hover #arrowRight {
-    background-image: url(/portfolio/icons/arrow_jasmin.png);
+    background-image: url(/portfolio/icons/arrow_orange.png);
     transform: rotate(180deg);
 }
 
@@ -256,7 +256,7 @@ p {
 }
 
 #left:hover #arrowLeft {
-    background-image: url(/portfolio/icons/arrowReverse_joshua.png);
+    background-image: url(/portfolio/icons/arrowReverse_blue.png);
 }
 
 /* VORSTELLUNG JOSHUA */
