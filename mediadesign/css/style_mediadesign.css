@@ -473,12 +473,16 @@ p {
     grid-column-end: 4;
     justify-self: center;
     align-self: center;
+    text-align: center;
 }
 
 #tagsJoshua {
     grid-row: 3;
     grid-column-start: 2;
     grid-column-end: 4;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
 }
 
 /* JASMIN - RIGHT */
