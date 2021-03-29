@@ -177,14 +177,14 @@ p {
     width: 24px;
     height: 86px;
     transform: rotate(180deg);
-    background-image: url(/icons/arrowReverse.png);
+    background-image: url(icons/arrowReverse.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #upArrow:hover {
-    background-image: url(/icons/arrowReverse_joshua.png);
+    background-image: url(icons/arrowReverse_joshua.png);
 }
 
 /* ASIDE RIGHT */
@@ -203,7 +203,7 @@ p {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(/icons/arrow.png);
+    background-image: url(icons/arrow.png);
     transform: rotate(180deg);
 }
 
@@ -220,7 +220,7 @@ p {
 }
 
 #right:hover #arrowRight {
-    background-image: url(/icons/arrow_jasmin.png);
+    background-image: url(icons/arrow_jasmin.png);
     transform: rotate(180deg);
 }
 
@@ -241,7 +241,7 @@ p {
     height: 65px;
     width: 18px;
     background-size: cover;
-    background-image: url(/icons/arrowReverse.png);
+    background-image: url(icons/arrowReverse.png);
 }
 
 #left a {
@@ -256,7 +256,7 @@ p {
 }
 
 #left:hover #arrowLeft {
-    background-image: url(/icons/arrowReverse_joshua.png);
+    background-image: url(icons/arrowReverse_joshua.png);
 }
 
 /* VORSTELLUNG JOSHUA */
