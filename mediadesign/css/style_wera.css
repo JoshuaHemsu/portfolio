@@ -169,7 +169,7 @@ img {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(/icons/arrow.png);
+    background-image: url(/portfolio/icons/arrow.png);
 }
 
 #aboutText {
@@ -186,7 +186,7 @@ img {
 }
 
 #left:hover #arrowLeft {
-    background-image: url(/icons/arrow_joshua.png);
+    background-image: url(/portfolio/icons/arrow_joshua.png);
 }
 
 /* BACK TO THE TOP ARROW */
@@ -204,14 +204,14 @@ img {
     width: 24px;
     height: 86px;
     transform: rotate(180deg);
-    background-image: url(/icons/arrowReverse.png);
+    background-image: url(/portfolio/icons/arrowReverse.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #upArrow:hover {
-    background-image: url(/icons/arrowReverse_joshua.png);
+    background-image: url(/portfolio/icons/arrowReverse_blue.png);
 }
 
 
@@ -234,7 +234,7 @@ img {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(/icons/arrow.png);
+    background-image: url(/portfolio/icons/arrow.png);
 }
 
 #right a {
@@ -246,7 +246,7 @@ img {
 }
 
 #right:hover #arrowRight {
-    background-image: url(/icons/arrow_joshua.png);
+    background-image: url(/portfolio/icons/arrow_blue.png);
 }
 
 /* PROJECT DESCRIPTION */
