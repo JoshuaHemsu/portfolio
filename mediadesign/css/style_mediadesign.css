@@ -436,21 +436,8 @@ p {
 }
 
 
-/* PROJECT 9 */
 
-/* ######################################################## */
 
-#project9 {
-    grid-row: 10;
-}
-
-/* PROJECT 10 */
-
-/* ######################################################## */
-
-#project10 {
-    grid-row: 11;
-}
 
 /* CATEGORIES LIST */
 
@@ -463,7 +450,7 @@ p {
     align-content: center;
     justify-content: center;
     text-transform: uppercase;
-    grid-row: 12;
+    grid-row: 10;
     grid-column: 1/5;
 }
 
