@@ -379,6 +379,47 @@ img {
     grid-column: 3;
 }
 
+/* 5TH ROW */
+
+/* ######################################################## */
+
+#behindTheScenes {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 4;
+    align-content: end;
+    justify-self: center;
+    margin-top: 180px;
+}
+
+/* 6TH ROW */
+
+/* ######################################################## */
+
+#bts1 {
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#bts2 {
+    width: 100%;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+#bts3 {
+    width: 100%;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#bts4 {
+    width: 100%;
+    grid-row: 2;
+    grid-column: 3;
+}
+
 /* CATEGORIES LIST */
 
 /* ######################################################## */
