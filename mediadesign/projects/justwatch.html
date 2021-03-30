@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project - JustWatch</title>
+    <link rel="stylesheet" type="text/css" href="/portfolio/mediadesign/css/style_wera.css">
+
+    <!--Playfair Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!--Roboto Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Alex brush Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+    <!-- Modal - DB von W3Schools -->
+    <link rel="stylesheet" href="/portfolio/w3.css">
+
+</head>
+
+<body>
+    <!-- Menubar-->
+    <!-- #####################################################-->
+
+    <header>
+        <nav class="menuebar">
+
+            <div id="elements">
+
+                <a class="disabledTab">About</a>
+                <a href="#" class="nav-item is-active scroll" id="itemProjects" active-color="#56cfe1">Projects</a>
+                <a href="#hashtags" class="nav-item scroll" id="itemHashtags" active-color="#56cfe1">Categories</a>
+                <a href="#footer" class="nav-item scroll" id="itemFooter" active-color="#56cfe1">Contact</a>
+
+                <span class="nav-indicator"></span>
+
+            </div>
+
+        </nav>
+
+        <a id="logo" href="/portfolio/mediadesign/index.html">Joshua</a>
+
+    </header>
+
+    <!-- Description - Projektbeschreibung mit Semester und Text -->
+    <!-- #####################################################-->
+
+    <main id="grid">
+        <!-- Grid mit 4 Spalten und 7 Zeilen-->
+        <section id="description">
+
+            <h2 id="specialHashtags">
+                <a href="/portfolio/mediadesign/categories/ux.html">#UX Design</a>
+                <a class="verticalLine">|</a>
+                <a id="semester" href="#">SS2020</a>
+            </h2>
+            <h1>WERA - Dein Lastenrad</h1>
+            <p id="text"> Seit Jahren ist die Umweltverschmutzung durch den Verkehr ein heiß diskutiertes Thema und
+                die Suche nach einer Alternative zum Auto endlos. Immer mehr fällt der Fokus auf das Fahrrad als
+                umweltfreundliches Transport- und Verkehrsmittel. In vielen Städten wurden nun Initiativen gegründet,
+                die den kostenlosen Verleih von Lastenrädern anbieten. Der BUND Ravensburg-Weingarten möchte nun in den
+                beiden Städten ein solches Lastenrad- Projekt initiieren.
+            </p>
+
+        </section>
+
+        <!-- Asides - Right / Left-->
+        <!-- #####################################################-->
+
+        <aside id="left">
+            <a id="aboutText" href="/portfolio/mediadesign/index.html">About</a>
+            <a href="/portfolio/mediadesign/index.html">
+                <div id="arrowLeft"></div>
+            </a>
+        </aside>
+
+        <aside id="right">
+            <a href="beatrunner.html">Next One</a>
+            <a href="beatrunner.html">
+                <div id="arrowRight"></div>
+            </a>
+        </aside>
+
+        <!-- First Row - Titelbild WERA -->
+        <!-- #####################################################-->
+
+        <section class="wideContent">
+            <img id="weraTitle" src="/portfolio/mediadesign/img/wera/website.png">
+        </section>
+
+        <!-- Second Row - Detail Bilder -->
+        <!-- #####################################################-->
+
+
+        <section id="innerGrid1">
+
+            <img id="pictureLeft" src="/portfolio/mediadesign/img/wera/prototyp.png" alt="WERA - Prototyp"
+                onclick="document.getElementById('prototyp').style.display='block'">
+
+            <div id="prototyp" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/portfolio/mediadesign/img/wera/prototyp.png" width="100%">
+                </div>
+            </div>
+
+
+            <p id="paragraphOne">
+                Für einen unkomplizierten Verleih der Lastenräder
+                ist eine Webseite als Buchungsplattform
+                nötig. Der Nutzer soll sich in wenigen Schritten
+                ein Rad buchen können, sowie die Möglichkeit
+                haben sich über die Initiative zu informieren.
+                Unsere Aufgabe war es neben der Gestaltung
+                der Webseite ein geeignetes Corporate Design
+                inklusive Name und Logo zu entwickeln.
+            </p>
+
+
+            <img id="pictureRight" src="/portfolio/mediadesign/img/wera/logo.png" alt="WERA - Logo"
+                onclick="document.getElementById('logoWera').style.display='block'">
+
+            <div id="logoWera" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/portfolio/mediadesign/img/wera/logo.png" style="width: 100%;">
+                </div>
+            </div>
+
+            <p id="paragraphTwo">
+                Unsere Designsprache zeichnet sich durch einen sehr schlichten
+                und einfachen Gestaltungsstil aus. Prioriät hat die Funktionalität
+                und die User Experience unserer Webseite. Darauf
+                aufbauend haben wir unser Design entwickelt, welches sehr
+                layerbasiert ist und mit Rechtecken „arbeitet“, die immer wieder
+                auf der Webseite auftauchen.
+                Im Folgenden gehen wir näher auf Farben, Typografie und
+                Illustrationen als weitere Gestaltungselemente ein
+            </p>
+
+
+
+        </section>
+
+
+        <!-- Animatic Video-->
+
+        <section class="wideContent">
+            <img id="weraTitle" src="/portfolio/mediadesign/img/wera/booking.png">
+        </section>
+
+        <!-- Storyboard etc.-->
+        <!-- #####################################################-->
+
+        <section id="innerGrid2">
+            <p id="paragraphTop">
+                Das Corporate Design von WeRa sticht vor allem durch sehr starke und eigenständige Farben heraus.
+                Die Primärfarbe ist ein tiefes, dunkles Blau, welches durch einen auffälligen und warmen Orange-Ton
+                ergänzt wird. Ein Wechselspiel aus den beiden Farben erzeugt ein harmonisches Gesamtbild.
+                Durch den bewussten Einsatz von Farben wird die Aufmerksamkeit vom Betrachter erregt.
+                Ergänzt werden die beiden Farben durch weitere Akzentfarben, die beispielsweise Anwendung
+                in Illustrationen finden.
+            </p>
+
+            <img id="imgTop" src="/portfolio/mediadesign/img/wera/colors.png" class="modalContent"
+                onclick="document.getElementById('colors').style.display='block'">
+
+            <div id="colors" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/portfolio/mediadesign/img/wera/colors.png" style="width: 100%;">
+                </div>
+            </div>
+
+
+            <p id="paragraphBottom">
+                Um sich von anderen Lastenradinitiativen deutlich abheben zu können, wird die Designsprache durch
+                Illustrationen er-gänzt und verstärkt. Diese werden an die Farben des Style-guides angepasst.
+                Damit wirkt das gesamte Erscheinungs-bild moderner und ansprechender.
+                Außerdem soll dadurch eine gewisse Individualität und Nähe zum Betrachter geschaffen werden.
+
+            </p>
+            <img id="imgBottom" src="/portfolio/mediadesign/img/wera/illustration.jpg" class="modalContent"
+                onclick="document.getElementById('illustration').style.display='block'">
+
+            <div id="illustration" class="w3-modal" onclick="this.style.display='none'">
+                <div class="w3-modal-content w3-animate-zoom" style="margin-top: 50px;">
+                    <img src="/portfolio/mediadesign/img/wera/illustration.jpg" style="width: 100%;">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Categories/Hashtags -->
+
+        <section id="hashtags">
+
+            <div></div>
+
+            <article id="hash">
+
+                <a href="/portfolio/mediadesign/categories/motion.html">#Motion Design</a>
+                <a href="/portfolio/mediadesign/categories/ux.html">#Ux Design</a>
+                <a href="/portfolio/mediadesign/categories/photography.html">#Photography</a>
+                <a href="/portfolio/mediadesign/categories/film.html">#Film</a>
+                <a href="/portfolio/mediadesign/categories/audio.html">#Audio</a>
+                <a href="/portfolio/mediadesign/categories/3d.html">#3D</a>
+                <a href="/portfolio/mediadesign/categories/web.html">#Web Design</a>
+                <a href="/portfolio/mediadesign/categories/design.html">#Design Basics</a>
+
+            </article>
+
+        </section>
+
+        <!-- Footer -->
+
+        <section id="footerSection">
+
+            <footer id="footer">
+
+                <p id="hi">Want To Say Hi ? <br>
+                    Then Contact Me ...
+                </p>
+
+
+                <p id="KontaktJoshi">
+                    <a href="/portfolio/mediadesign/index.html" style="color:#56CFE1">Joshua Hemsuthipan</a><br>
+                    <br>
+                    +49 176 84773289<br>
+                    j.hemsuthipan@gmail.com<br>
+                    <br>
+                    Address:<br>
+                    Im Fischergarten 9<br>
+                    88250 Weingarten<br>
+                    Germany<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJoshua">
+                    <a href="https://www.instagram.com/_joshi1_/">In</a>
+                    <a href="https://www.youtube.com/channel/UCB-ggoQGI1pssush7VygFrA">Yt</a>
+                    <a href="https://www.xing.com/profile/Joshua_Hemsuthipan/cv">Xi</a>
+                </div>
+
+
+                <!-- Privacy Policy -->
+
+                <section id="privacyPolicy">
+                    <a href="#">Privacy Policy </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    <a href="#">Terms & Conditions </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    © 2020 - 2021
+                </section>
+
+                </div>
+            </footer>
+
+        </section>
+
+        <!-- Back To The Top Arrow -->
+
+        <a href="#" id="upArrow" class="upArrow invisible"></a>
+
+    </main>
+
+
+    <!-- Einbindung von JS nav-->
+    <script src="/portfolio/js/nav.js"></script>
+
+    <!-- Einbindung von JS snapscroll-->
+    <script src="/portfolio/js/scroll.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JQUERY zur funktionaliät des folgenden Codes -->
+    <!-- Für den UP ARROW -->
+    <script>
+
+        $(document).ready(function () {
+            $(window).scrollTop(0);
+        });
+
+        $(window).bind('wheel', function (e) {
+
+            if (event.deltaY > 0) {
+                $('.upArrow').fadeIn();
+                $('.hideArrow').fadeOut();
+
+
+
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>

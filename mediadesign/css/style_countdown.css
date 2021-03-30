@@ -212,6 +212,39 @@ img {
     background-image: url(/portfolio/icons/arrowReverse_blue.png);
 }
 
+/* ASIDE RIGHT */
+
+/* ######################################################## */
+
+#right {
+    position: fixed;
+    font-size: 0.75em;
+    margin-top: 200px;
+    right: 110px;
+}
+
+#arrowRight {
+    position: relative;
+    transform: rotate(180deg);
+    height: 18px;
+    width: 65px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(/portfolio/icons/arrow.png);
+}
+
+#right a {
+    color: #404040;
+}
+
+#right:hover a {
+    color: #56cfe1;
+}
+
+#right:hover #arrowRight {
+    background-image: url(/portfolio/icons/arrow_blue.png);
+}
 
 /* PROJECT DESCRIPTION */
 
