@@ -35,7 +35,7 @@ body {
 }
 
 #footerSection {
-    grid-row: 6;
+    grid-row: 7;
     grid-column-start: 1;
     grid-column-end: 5;
 }
@@ -180,7 +180,7 @@ p {
 }
 
 #upArrow:hover {
-    background-image: url(/portfolio/icons/arrowReverse_joshua.png);
+    background-image: url(/portfolio/icons/arrowReverse_blue.png);
 }
 
 /* ASIDE LEFT */
@@ -361,7 +361,7 @@ p {
     align-content: center;
     justify-content: center;
     text-transform: uppercase;
-    grid-row: 5;
+    grid-row: 6;
     grid-column: 1/5;
 }
 
