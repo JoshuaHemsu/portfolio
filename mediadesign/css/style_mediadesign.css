@@ -515,22 +515,6 @@ p {
     text-align: center;
 }
 
-/* JASMIN - RIGHT */
-
-#KontaktJasmin {
-    text-align: right;
-    width: 300px;
-    grid-row: 2;
-    grid-column: 3;
-    justify-self: end;
-}
-
-#tagsJasmin {
-    grid-row: 3;
-    grid-column: 3;
-    justify-self: end;
-    text-align: right;
-}
 
 /* PRIVACY POLICY */
 
