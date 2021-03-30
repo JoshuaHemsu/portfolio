@@ -27,7 +27,7 @@ body {
 #grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     animation: opacity 1s;
     height: 100vh;
     scroll-snap-type: y mandatory; /* activate snapsscroll*/
