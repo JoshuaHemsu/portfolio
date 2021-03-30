@@ -27,7 +27,7 @@ body {
 #grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
     animation: opacity 1s;
     height: 100vh;
     scroll-snap-type: y mandatory; /* activate snapsscroll*/
@@ -35,7 +35,7 @@ body {
 }
 
 #footerSection {
-    grid-row: 8;
+    grid-row: 11;
     grid-column-start: 1;
     grid-column-end: 5;
 }
