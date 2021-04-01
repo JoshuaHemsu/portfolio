@@ -303,7 +303,7 @@ p {
     align-self: end;
     grid-row: 1;
     grid-column: 2;
-    margin-bottom: 240px;
+    margin-bottom: 140px;
     word-spacing: 50px;
     animation: opacity_inv 1s;
 }
