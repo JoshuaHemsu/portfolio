@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Impressum</title>
+    <link rel="stylesheet" type="text/css" href="/portfolio/mediadesign/css/style_impressum.css">
+
+    <!--Playfair Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!--Roboto Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Alex brush Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+
+    <!-- Modal - DB von W3Schools -->
+    <link rel="stylesheet" href="/portfolio/w3.css">
+
+</head>
+
+<body>
+    <!-- Menubar-->
+    <!-- #####################################################-->
+
+    <header>
+        <nav class="menuebar">
+
+            <div id="elements">
+
+                <a class="disabledTab">About</a>
+                <a href="#" class="nav-item is-active scroll" id="itemProjects" active-color="#56cfe1">Projects</a>
+                <a href="#hashtags" class="nav-item scroll" id="itemHashtags" active-color="#56cfe1">Categories</a>
+                <a href="#footer" class="nav-item scroll" id="itemFooter" active-color="#56cfe1">Contact</a>
+
+                <span class="nav-indicator"></span>
+
+            </div>
+
+        </nav>
+
+        <a id="logo" href="/portfolio/mediadesign/index.html">Joshua</a>
+
+    </header>
+
+    <!-- Description - Projektbeschreibung mit Semester und Text -->
+    <!-- #####################################################-->
+
+    <main id="grid">
+        <!-- Grid mit 4 Spalten und 7 Zeilen-->
+        <section id="description">
+
+            <h1>Impressum</h1>
+            <p id="text">
+
+                <br>Anbieter:</br>
+                <br>Joshua Hemsuthipan</br>
+                <br>Trausnitzstraße 22</br>
+                <br>81671 München</br>
+                
+                <br>Kontakt:</br>
+                <br>Telefon: +49 176 84773289</br>
+                <br>E-Mail: j.hemsuthipan@gmail.com</br>
+            </p>
+
+        </section>
+
+        <!-- Asides - Right / Left-->
+        <!-- #####################################################-->
+
+        <aside id="left">
+            <a id="aboutText" href="/portfolio/mediadesign/index.html">About</a>
+            <a href="/portfolio/mediadesign/index.html">
+                <div id="arrowLeft"></div>
+            </a>
+        </aside>
+
+        <aside id="right">
+            <a href="runes.html">Next One</a>
+            <a href="runes.html">
+                <div id="arrowRight"></div>
+            </a>
+        </aside>
+
+
+
+        <!-- Categories/Hashtags -->
+        <!-- #####################################################-->
+
+        <section id="hashtags">
+
+            <div></div>
+
+            <article id="hash">
+
+                <a href="/portfolio/mediadesign/categories/motion.html">#Motion Design</a>
+                <a href="/portfolio/mediadesign/categories/ux.html">#Ux Design</a>
+                <a href="/portfolio/mediadesign/categories/photography.html">#Photography</a>
+                <a href="/portfolio/mediadesign/categories/film.html">#Film</a>
+                <a href="/portfolio/mediadesign/categories/audio.html">#Audio</a>
+                <a href="/portfolio/mediadesign/categories/3d.html">#3D</a>
+                <a href="/portfolio/mediadesign/categories/web.html">#Web Design</a>
+                <a href="/portfolio/mediadesign/categories/design.html">#Design Basics</a>
+
+            </article>
+
+        </section>
+
+        <!-- Footer -->
+
+        <section id="footerSection">
+
+            <footer id="footer">
+
+                <p id="hi">Want To Say Hi ? <br>
+                    Then Contact Me ...
+                </p>
+
+
+                <p id="KontaktJoshi">
+                    <a href="/portfolio/mediadesign/index.html" style="color:#56CFE1">Joshua Hemsuthipan</a><br>
+                    <br>
+                    +49 176 84773289<br>
+                    j.hemsuthipan@gmail.com<br>
+                    <br>
+                    Address:<br>
+                    Trausnitzstraße 22<br>
+                    81671 München<br>
+                    Deutschland<br>
+                </p>
+
+                <!-- Social Media -->
+
+                <div class="tags2" id="tagsJoshua">
+                    <a href="https://www.instagram.com/_joshi1_/">In</a>
+                    <a href="https://www.youtube.com/channel/UCB-ggoQGI1pssush7VygFrA">Yt</a>
+                    <a href="https://www.xing.com/profile/Joshua_Hemsuthipan/cv">Xi</a>
+                </div>
+
+
+                <!-- Privacy Policy -->
+
+                <section id="privacyPolicy">
+                    <a href="#">Privacy Policy </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    <a href="#">Terms & Conditions </a>
+
+                    <a href="#" class="verticalLine">|</a>
+
+                    © 2021 by Joshua Hemsuthipan
+                </section>
+
+                </div>
+            </footer>
+
+        </section>
+
+        <!-- Back To The Top Arrow -->
+
+        <a href="#" id="upArrow" class="upArrow invisible"></a>
+
+    </main>
+
+
+    <!-- Einbindung von JS nav-->
+    <script src="/portfolio/js/nav.js"></script>
+
+    <!-- Einbindung von JS snapscroll-->
+    <script src="/portfolio/js/scroll.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JQUERY zur funktionaliät des folgenden Codes -->
+    <!-- Für den UP ARROW -->
+    <script>
+
+        $(document).ready(function () {
+            $(window).scrollTop(0);
+        });
+
+        $(window).bind('wheel', function (e) {
+
+            if (event.deltaY > 0) {
+                $('.upArrow').fadeIn();
+                $('.hideArrow').fadeOut();
+
+
+
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
