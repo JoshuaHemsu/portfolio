@@ -283,6 +283,14 @@ img {
     justify-content: center;
 }
 
+.wideContent2 {
+    grid-column: 2/4;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+
 #innerGrid1 {
     display: grid;
     margin-top: 80px;
